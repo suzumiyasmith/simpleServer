@@ -3,4 +3,6 @@ module Main where
 import Lib
 
 main :: IO ()
-main = someFunc
+main = do
+  putStrLn "start servering files in current dir on port 2333"
+  someFunc
